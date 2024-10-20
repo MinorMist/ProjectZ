@@ -1,10 +1,12 @@
-Backend -
-terminal ./backend --
+# ProjectZ
 
-npm install
+---
 
-Frontend -
-terminal ./frontend --
+## To start development :
 
+```
 npm install
 npm run dev
+```
+
+### Happy Coding!
