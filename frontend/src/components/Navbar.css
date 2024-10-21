@@ -1,0 +1,29 @@
+/* Dark mode styling */
+body.dark-mode {
+  background-color: #121212; /* Background color for dark mode */
+  color: #f0f0f0; /* Default text color in dark mode */
+}
+
+.navbar-dark {
+  background-color: #343a40 !important; /* Dark mode navbar background */
+}
+
+.navbar-light {
+  background-color: #f8f9fa !important; /* Light mode navbar background */
+}
+
+.navbar .nav-link {
+  color: #000; /* Default link color in light mode */
+}
+
+body.dark-mode .navbar .nav-link {
+  color: #f0f0f0; /* Link color in dark mode */
+}
+
+body.dark-mode .navbar .nav-link.active {
+  font-weight: bold; /* Bold for active link in dark mode */
+}
+
+body.dark-mode #modeBtn {
+  color: white;
+}
